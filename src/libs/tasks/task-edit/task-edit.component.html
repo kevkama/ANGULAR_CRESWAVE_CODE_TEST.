@@ -1,0 +1,15 @@
+<h2>{{ isNew ? 'Add Task' : 'Edit Task' }}</h2>
+
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+  <div>
+    <input matInput placeholder="Title" formControlName="title" required>
+  </div>
+
+  <div>
+    <textarea matInput placeholder="Description" formControlName="description" required></textarea>
+  </div>
+
+  <input type="checkbox" formControlName="completed" title="Completed">/>
+
+  <button mat-raised-button color="primary" type="submit" [disabled]="taskForm.invalid">Save</button>
+</form>

@@ -1,0 +1,28 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Learn Angular",
+        "description": "Complete the Angular tutorial",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "title": "Grocery Shopping",
+        "description": "Buy milk, eggs, and bread",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "title": "Gey job at Creswave",
+        "description": "Pass the interview",
+        "completed": true
+      },
+      {
+        "id": 4,
+        "title": "submit the test",
+        "description": "Bsubmit the test to Creswave",
+        "completed": true
+      }
+    ]
+}
